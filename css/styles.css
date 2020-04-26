@@ -1,0 +1,32 @@
+body {
+    width: 50%;
+    margin: auto;
+}
+h1 {
+    background-color: darkcyan;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 3px 7px #888;
+}
+img {
+    position: absolute;
+    right:27%;
+    top: 50px;
+    width: 150px;
+    box-shadow: 0 3px 7px #888;
+}
+h2 {
+    padding-left: 15px;
+    border-bottom:  1px solid black;
+}
+footer {
+    background-color: darkcyan;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 3px 7px #888; 
+    text-align: center;
+}
