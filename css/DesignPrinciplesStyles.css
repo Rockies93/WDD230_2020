@@ -1,0 +1,46 @@
+body {
+    width: 75%;
+    background-color: white;
+    box-shadow: 0px 3px 7px black;
+    margin: auto;
+}
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color:#45503B;
+    color: #DBD9DB;
+    text-align: center;
+    padding: 10%;
+}
+.Principles {
+    padding: 30px;
+}
+h2 {
+    background-color: #816A74;
+    color: #DBD9DB;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 30px;
+    font-size: 2.5em;
+}
+.under {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
+    
+}
+.under img {
+    width: 400px;
+    box-shadow: 0px 3px 7px black;
+}
+.content {
+    grid-column: span 2/4;
+}
+h3 {
+    font-size: 2em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+a {
+    text-decoration: none;
+}
+.content p{
+    font-size: 1.5em;
+}
