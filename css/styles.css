@@ -3,7 +3,7 @@ body {
     margin: auto;
 }
 h1 {
-    background-color: darkcyan;
+    background-color: #484d6d;
     color: white;
     font-family: Abril Fatface, serif;
     padding: 50px;
@@ -11,9 +11,8 @@ h1 {
     box-shadow: 0 3px 7px #888;
 }
 img {
-    position: absolute;
-    right:27%;
-    top: 50px;
+    float: right;
+    margin: 30px;
     width: 150px;
     box-shadow: 0 3px 7px #888;
 }
@@ -23,11 +22,17 @@ h2 {
     font-family: Monserrat, sans-serif;
 }
 footer {
-    background-color: darkcyan;
+    background-color: #484d6d;
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 25px;
     border-radius: 10px;
     box-shadow: 0 3px 7px #888; 
     text-align: center;
+}
+footer a {
+    color: #e6e6e6;
+}
+footer a:visited {
+    color: #f0d6f0;
 }
