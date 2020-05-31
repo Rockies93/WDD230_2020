@@ -34,8 +34,25 @@
         font-size: 1.5em;
     }
     .summary-text h2 {
-        font-size: 2.5em;*/
+        font-size: 2.5em;
+    }*/
+
+    /*5 Day Bar Styling*/
+    .five-day-bar {
+        display: grid;
+        grid-template-columns: repeat(5,1fr);
+        align-content: center;
+        justify-content: center;
     }
+    .five-day-part img {
+        width: 75px;
+    }
+    .five-day-part {
+        border: 2px 1px 2px 1px solid #576163;
+        text-align: center;
+    }
+
+
     article {
         display: block;
     }
