@@ -1,4 +1,4 @@
-/*Based on Mozzilla Instructions*/
+
 const images = document.querySelectorAll("[data-src]");
 
 function preloadImage(img) {
@@ -7,10 +7,16 @@ function preloadImage(img) {
         return;
     }
     else {
-        img.src = src;
+        img.setAttribute('src', img.getAttribute('data-src'));
+        img.onload = () => {
+            img.removeAttribute('data-src');
+        };
     }
 }
-const imgOptions = {}; 
+const imgOptions = {
+    threshold: 0,
+    rootMargin: "0px 0px 50px 0px"
+}; 
 
 const imgObserver = new IntersectionObserver((entries,imgObserver) => {
     entries.forEach(entry => {
