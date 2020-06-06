@@ -151,7 +151,7 @@ footer{
 .card {
     margin: 20px;
     overflow: hidden;
-    box-shadow: 0px 3px 7px black;
+    
 }
 .card:hover {
     box-shadow: 3px 7px 10px black;
