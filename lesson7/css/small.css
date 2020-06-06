@@ -159,13 +159,14 @@ footer{
 .card-image {
     width: 100%;
     filter: blur(0em);
-    transition: filter 0.5s;
+    transition: filter 0.5s
 }
-.card label {
-    padding: 40px;
+label {
+    display: none;
+    /* padding: 40px;
     margin-top: 30px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: #576163;
+    color: #576163;*/
 }
 img[data-src] {
     filter: blur(5px);
