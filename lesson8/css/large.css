@@ -22,10 +22,14 @@
     }
 
     label {
-        display: inline;
+        /*display: inline;
         padding: 40px;
         margin-top: 30px;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        color: #576163;
+        color: #576163;*/
+    }
+    input {
+        width: 50%;
+    }
 
 }

@@ -161,15 +161,50 @@ footer{
     filter: blur(0em);
     transition: filter 0.5s
 }
-label {
+/*label {
     display: none;
-    /* padding: 40px;
+     padding: 40px;
     margin-top: 30px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #576163;*/
 }
 img[data-src] {
     filter: blur(5px);
+}
+
+/*Storm Center*/
+label {
+    display: block;
+    margin: 2em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #576163;
+}
+input {
+    display: block;
+    margin: 40px;
+    border-radius: 4px;
+    height: 44px;
+    width: 50%;
+}
+form {
+    margin: 5%;
+}
+fieldset {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #576163;
+}
+.sbs {
+    display: inline;
+    margin: 0em;
+    height: 25px;
+}
+.sbs label {
+    display: inline;
+}
+.subbut {
+    background-color: #065DA8;
+    box-shadow: none;
+    margin: 1em;
 }
 
 /*Clearfix*/
