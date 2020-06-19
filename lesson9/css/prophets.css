@@ -29,6 +29,7 @@ ul {
 
 img {
     padding: 20px;
+    width: 85%;
 }
 @media only screen and (min-width: 32.5em) {
     .cards {
@@ -40,6 +41,6 @@ img {
 @media only screen and (min-width: 60em) {
     .cards {
         display: grid;
-        grid-template-columns: repeat(3,1fr);
+        grid-template-columns: repeat(4,1fr);
     }
 }
