@@ -207,6 +207,22 @@ fieldset {
     margin: 1em;
 }
 
+/*Home Article Style */
+.home-article {
+    background-color: white;
+    margin: 1em;
+    overflow: hidden;
+    box-shadow: 0px 3px 7px black;
+}
+.home-article h2 {
+    padding-left: 1em;
+}
+.home-article p {
+    padding: 1em;
+}
+.home-article img {
+    width: 100%;
+}
 /*Home Card Style*/
 .home-cards {
     display: grid;

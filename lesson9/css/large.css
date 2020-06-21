@@ -32,11 +32,17 @@
         width: 50%;
     }
     /*Home Page*/
+    .home-article img {
+        position: relative;
+        float: left;
+        width: 35%;
+        margin-right: 1em;
+    }
 
     .home-cards {
         display: grid;
         grid-template-columns: repeat(3,1fr);
     }
-    
+
 
 }
