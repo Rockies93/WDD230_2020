@@ -1,0 +1,264 @@
+/*Style Header*/
+.logo {
+    display: block;
+    margin: auto;
+}
+.motto {
+    font-style: italic;
+    text-align: center;
+}
+.breakfast-gone {
+    display: none;
+}
+.breakfast {
+    background-color: #FAF7A8;
+    color: #576163;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 30px;
+    box-shadow: 0px 3px 7px black;
+    margin-bottom: 20px;
+}
+/*Style Nav*/
+nav {
+    background-color: #065DA8;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+nav li{
+    color: #ECEAEC;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /*padding: 20px;*/
+    text-align: center;
+}
+nav li a{
+    display: block;
+    color: #ECEAEC;
+    text-decoration: none;
+    padding: .8rem 2%;
+}
+nav li a:hover {
+    background-color: #043980;
+}
+.navigation li:first-child {
+    display: block;
+}
+.navigation li {
+    display: none;
+}
+
+.responsive li{
+    display: block;
+}
+.active {
+    color: #FAF7A8;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+/*Style Main- Basics*/
+body {
+    background-color: #eceaec;
+}
+h1,h2,h3 {
+    font-family:Raleway, sans-serif;
+    color: #065DA8;
+}
+h1 {
+    text-align: center;
+    font-size: 2.5em;
+}
+h2 {
+    font-size: 2em;
+}
+h3 {
+    font-size: 1.5em;
+}
+p,ul {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: .25em;
+    color: #576163;
+    font-size: 1em;
+}
+
+/*Style 5 Day Forcast*/
+.five-day-section {
+    display: none;
+}
+/*Style Placeholders*/
+article, .contact-info {
+    background-color: white;
+    box-shadow: 0px 3px 7px black;
+    padding: 20px;
+    margin: 20px;
+    overflow: hidden;
+}
+article img {
+    margin: auto;
+}
+/*Style Hero Banner*/
+.summary {
+    background-color: white;
+    box-shadow: 0px 3px 7px black;
+    margin: 20px;
+    overflow: hidden;
+}
+picture {
+    width: 100%;
+}
+picture img {
+    width: 100%;
+}
+.summary-text {
+    background-color: #ECEAEC;
+    box-shadow: 0px 3px 7px black;
+    padding: 10px;
+    width: 25%;
+    position: absolute;
+    margin: 20px;
+    display: block;
+}
+.summary-text ul {
+    list-style: none;
+}
+.summary-text ul, .summary-text h2 {
+    font-size: .75em;
+}
+/*Style Article*/
+.article-image {
+    width: 100%;
+}
+/*Style Contact Info*/
+.map {
+    width: 100%;
+}
+.contact-list ul {
+    list-style: none;
+}
+/*Style Footer*/
+footer{
+    background-color: #065DA8;
+    color: #ECEAEC;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+/*Gallery Styles*/
+
+.card {
+    margin: 20px;
+    overflow: hidden;
+    
+}
+.card:hover {
+    box-shadow: 3px 7px 10px black;
+}
+.card-image {
+    width: 100%;
+    filter: blur(0em);
+    transition: filter 0.5s
+}
+/*label {
+    display: none;
+     padding: 40px;
+    margin-top: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #576163;
+}*/
+img[data-src] {
+    filter: blur(5px);
+}
+
+/*Storm Center*/
+label {
+    display: block;
+    margin: 2em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #576163;
+}
+input {
+    display: block;
+    margin: 40px;
+    border-radius: 4px;
+    height: 44px;
+    width: 50%;
+}
+form {
+    margin: 5%;
+}
+fieldset {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #576163;
+}
+.sbs {
+    display: inline;
+    margin: 0em;
+    height: 25px;
+}
+.sbs label {
+    display: inline;
+}
+.subbut {
+    background-color: #065DA8;
+    box-shadow: none;
+    margin: 1em;
+}
+
+/*Home Article Style */
+.home-article {
+    background-color: white;
+    margin: 1em;
+    overflow: hidden;
+    box-shadow: 0px 3px 7px black;
+}
+.home-article h2 {
+    padding-left: 1em;
+}
+.home-article p {
+    padding: 1em;
+}
+.home-article img {
+    width: 100%;
+}
+/*Home Card Style*/
+.home-cards {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+section {
+    background-color: white;
+    margin: 1em;
+    overflow: hidden;
+    box-shadow: 0px 3px 7px black;
+}
+.home-image {
+    width: 100%;
+}
+section h2 {
+    padding-left: 1em;
+    margin-bottom: 0;
+}
+.townMotto {
+    padding-left: 1em;
+    font-style: italic;
+    margin-top: 0;
+}
+section ul {
+    padding-left: 1em;
+    list-style: none;
+}
+section li {
+    padding: .5em;
+}
+
+/*Clearfix*/
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+ 
