@@ -137,6 +137,11 @@ picture img {
 .contact-list ul {
     list-style: none;
 }
+.social-media {
+    width: 50px;
+    padding: 1em;
+    margin: 0 auto;
+}
 /*Style Footer*/
 footer{
     background-color: #065DA8;
