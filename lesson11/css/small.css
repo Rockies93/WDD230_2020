@@ -88,7 +88,7 @@ p,ul {
     display: none;
 }
 /*Style Placeholders*/
-article, .contact-info {
+article, .contact-info, .events {
     background-color: white;
     box-shadow: 0px 3px 7px black;
     padding: 20px;
@@ -257,6 +257,10 @@ section ul {
 }
 section li {
     padding: .5em;
+}
+
+.footer-bar a {
+    color: #FAF7A8;
 }
 
 /*Clearfix*/

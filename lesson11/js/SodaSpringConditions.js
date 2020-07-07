@@ -1,4 +1,4 @@
-const apiURL = "https://api.openweathermap.org/data/2.5/forecast?id=5604473&APPID=0367910c7e4bed370071326ed21ac397";
+const apiURL = "https://api.openweathermap.org/data/2.5/forecast?id=5607916&APPID=0367910c7e4bed370071326ed21ac397";
 fetch(apiURL)
   .then((response) => response.json())
   .then((jsObject) => {
@@ -54,7 +54,7 @@ fetch(apiURL)
 
   });
 
-  //Import Events From TownData JSON
+    //Import Events From TownData JSON
 const requestURL2 = 'https://byui-cit230.github.io/weather/data/towndata.json';
 
 fetch(requestURL2)
@@ -66,7 +66,7 @@ fetch(requestURL2)
   
 
 const towns = jsonObject['towns'];
-const preston = towns[4];
+const preston = towns[5];
 
 let h2 = document.createElement('h2');
 let list = document.createElement('ul');
@@ -83,4 +83,3 @@ document.querySelector('div.events').appendChild(h2);
 document.querySelector('div.events').appendChild(list);
 
 });
-
