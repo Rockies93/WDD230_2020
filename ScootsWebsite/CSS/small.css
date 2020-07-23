@@ -1,0 +1,369 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Righteous&display=swap');
+/*General*/
+body {
+    padding:0;
+    margin: 0;
+    background-color: #ECEAEC;
+}
+h1, h2, h3, h4 {
+    font-family: 'Righteous', sans-serif;
+    text-align: center;
+}
+p, ul {
+    font-family: 'Quicksand', sans-serif;
+}
+
+/*Header and Navigation*/
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+.logo-large {
+    display: none;
+}
+.logo-small {
+    padding: 0;
+    margin: 0;
+    height: 150px;
+    align-content: center;
+    margin: auto;
+}
+nav {
+    background-color: #e8aa14;
+    width: 100%;
+    box-shadow: 0px 3px 7px black;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+nav li {
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 1em;
+}
+nav a {
+    color: white;
+    text-shadow: 1px 1px grey;
+    text-decoration: none;
+}
+.navigation li:first-child {
+    display: block;
+}
+.navigation li {
+    display: none;
+}
+.responsive li{
+    display: block;
+}
+nav li:hover {
+    box-shadow: 0px 3px 7px black;
+}
+.active {
+    color: chartreuse;
+    font-weight: bold;
+}
+
+/*Home Page*/ 
+
+/*Banner*/
+.home-banner {
+    position: relative;
+}
+.home-banner h2 {
+    position: absolute;
+    top: 0;
+    left: .5em;
+    font-family: 'Righteous', sans-serif;
+    font-size: 2.5em;
+    color: #FF5714;
+    text-shadow: 1px 1px grey;
+}
+.home-banner button {
+    position: absolute;
+    bottom: 200px;
+    right: 2em;
+    background-color: rgb(255, 87, 20, .5);
+    border: 1px solid rgb(255, 87, 20, .5);
+    border-radius: 3em;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1em;
+    padding: .4em;
+}
+.home-banner button:hover {
+    background-color: #FF5714;
+}
+.banner-image {
+    width: 100%;
+}
+/*Rental Spotlight Section*/
+.rental-spotlight {
+    position: relative;
+    width: 100%;
+    background-color: #FF5714;
+    padding: 1em;
+    margin-top: 45px;
+}
+.rental-spotlight:after {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    content: '';
+    background: inherit;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transform-origin: top left;
+    transform: skewY(-5deg);
+    z-index: -1;
+}
+.rental-spotlight h2 {
+    font-family: 'Righteous', sans-serif;
+    text-align: left;
+    color: white;
+    font-size: 2em;
+    margin-right: 50px;
+    text-shadow: 1px 1px grey;
+}
+.rental-spotlight-section img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+}
+.rental-spotlight-section h3 {
+    font-family: 'Righteous', sans-serif;
+    color: white;
+    font-size: 1.5em;
+    text-shadow: 1px 1px grey;
+}
+.rental-spotlight-section p {
+    font-family: 'Quicksand', sans-serif;
+    color: black;
+}
+.rental-spotlight-section button {
+    background-color: white;
+    border: 1px solid rgb(255, 87, 20, .5);
+    border-radius: 3em;
+    color: #FF5714;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1em;
+    padding: .4em;
+    margin-bottom: 15px;
+    
+}
+.rental-spotlight-section button:hover {
+    box-shadow: 0px 3px 7px black;
+}
+/*Tour Section*/
+.tour-sites h2 {
+    font-family: 'Righteous', sans-serif;
+    color: #e8aa14;
+    font-size: 2em;
+    text-shadow: 1px 1px grey;
+    text-align: center;
+}
+.tour-section {
+    width: 90%;
+    overflow: hidden;
+    margin: 20px;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0px 3px 7px black;
+
+}
+.tour-section img {
+    width: 100%;
+}
+.tour-section button {
+    background-color: #FF5714;
+    border: 1px solid rgb(255, 87, 20, .5);
+    border-radius: 3em;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1em;
+    padding: .4em;
+    margin-bottom: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+}
+.tour-section button:hover {
+    box-shadow: 0px 3px 7px black;
+}
+/*Footer*/
+footer {
+    background-color: #e8aa14;
+    margin-bottom: 0;
+    position: relative;
+    margin-top: 75px;
+}
+footer:after {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    content: '';
+    background: inherit;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transform-origin: bottom right;
+    transform: skewY(5deg);
+    z-index: -1;
+}
+.social-media {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    margin-top: 30px;
+    justify-content: center;
+    align-content: center;
+}
+.social-media img {
+    height: 50px;
+    display: block;
+}
+.social-media img:hover {
+    box-shadow: 0px 3px 7px black;
+}
+footer h3 {
+    font-family: 'Righteous', sans-serif;
+    color: white;
+    text-shadow: 1px 1px grey;
+    font-size: 1.5em;
+    margin: 20px;
+}
+footer ul {
+    font-family: 'Quicksand', sans-serif;
+}
+.five-day {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    margin: 1em;
+    box-shadow: 0px 3px 7px black;
+}
+.five-day-part {
+    background-color: white;
+    text-align: center;
+    border: 1px solid black;
+}
+.five-day-part h4 {
+    font-family: 'Quicksand', sans-serif;
+}
+.contact-info {
+    font-family: 'Quicksand', sans-serif;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 10px;
+}
+.copyright-bar {
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+}
+
+/*Rental Page*/
+.scooters h3, .atvs h3, .jeeps h3 {
+    color: #e8aa14;
+    text-shadow: 1px 1px grey;
+    font-size: 2em;
+}
+.rental-card {
+    width: 90%;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    background-color: white;
+    box-shadow: 0px 3px 7px black;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+.rental-card h4 {
+    color: #e8aa14;
+    text-shadow: 1px 1px grey;
+    font-size: 1.5em;
+}
+.rental-card img {
+    width: 100%;
+}
+.rental-card button {
+    background-color: #FF5714;
+    border: 1px solid rgb(255, 87, 20, .5);
+    border-radius: 3em;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1em;
+    padding: .4em;
+    margin-bottom: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+}
+.rental-card button:hover {
+    box-shadow: 0px 3px 7px black;
+}
+
+/*Reservation Page*/
+label {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Quicksand', sans-serif;
+    padding: 10px;
+}
+legend{
+    font-family: 'Quicksand', sans-serif;
+}
+.confirmation {
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    padding: 40px;
+}
+
+/*Tour Page*/
+.tour {
+    position: relative;
+    background-color: white;
+    box-shadow: 0px 3px 7px black;
+}
+.tour img {
+    width:100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.tour h3 {
+    position: absolute;
+    top: 40px;
+    right: 10px;
+    color: #FF5714;
+    text-shadow: 1px 1px grey;
+    font-size: 1.5em;
+}
+.tour p {
+    padding: 1em
+}
+
+/*Contact Page*/
+iframe {
+    width:100%
+}
+
+
+
+/*Clearfix*/
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }

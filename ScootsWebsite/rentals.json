@@ -1,0 +1,65 @@
+{
+  "rentals":  [
+      {
+          "name": "Honda Metro",
+          "type": "scooter",
+          "ma-people": 1,
+          "halfdayres": 20,
+          "wholedayres": 30,
+          "halfdaywalk": 25,
+          "wholedaywalk": 35,
+          "image": "metro.jpg"
+      },
+      {
+        "name": "Honda Dio",
+        "type": "scooter",
+        "maxpeople": 2,
+        "halfdayres": 30,
+        "wholedayres": 40,
+        "halfdaywalk": 35,
+        "wholedaywalk": 45,
+        "image": "dio.jpg"
+      },
+      {
+        "name": "Honda PCX150",
+        "type": "scooter",
+        "max-people": 2,
+        "halfdayres": 40,
+        "wholedayres": 50,
+        "halfdaywalk": 45,
+        "wholedaywalk": 55,
+        "image": "pcx.jpg"
+      },
+      {
+        "name": "Honda Pioneer",
+        "type": "atv",
+        "maxpeople": 4,
+        "halfdayres": 50,
+        "wholedayres": 70,
+        "halfdaywalk": 60,
+        "wholedaywalk": 80,
+        "image": "pioneer.jpg"
+      },
+      {
+        "name": "Jeep Wrangler- 4 Door",
+        "type": "jeep",
+        "maxpeople": 5,
+        "halfdayres": 70,
+        "wholedayres": 100,
+        "halfdaywalk": 85,
+        "wholedaywalk": 125,
+        "image": "4doorWrangler.jpg"
+      },
+      {
+        "name": "Jeep Wrangler- 2 Door",
+        "type": "jeep",
+        "max-people": 4,
+        "halfdayres": 60,
+        "wholedayres": 85,
+        "halfdaywalk": 70,
+        "wholedaywalk": 90,
+        "image": "wrangler.jpg"
+      }
+    
+    ]
+}

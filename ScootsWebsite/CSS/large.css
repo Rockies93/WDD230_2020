@@ -1,0 +1,57 @@
+@media only screen and (min-width: 60em) {
+    .home-banner h2 {
+        font-size: 3em;
+        top: 1em;
+        left: 2em;
+    }
+    .home-banner button {
+        font-size: 2em;
+        bottom: 300px;
+    
+    }
+    .home-banner{
+        margin-bottom: 100px;
+    }
+    .rental-spotlight-section{
+        display: flex;
+        flex-direction: row;
+    }
+    .rental-spotlight-section img {
+        height: 200px;
+        width: 250px;
+        margin: 50px;
+    }
+    .rental-spotlight:after {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        content: '';
+        background: inherit;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        transform-origin: top left;
+        transform: skewY(-3deg);
+        z-index: -1;
+    }
+    .tour-sites {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .scooters, .atvs, .jeeps {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+    .tour-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .tour {
+        margin: 30px;
+    }
+    form {
+        max-width: 900px;
+        margin-left: 50px;
+    }
+}

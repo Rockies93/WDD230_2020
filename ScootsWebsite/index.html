@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head class="clearfix">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="home page for scoots scooter rental company">
+    <link rel="stylesheet" href="/ScootsWebsite/CSS/small.css">
+    <link rel="stylesheet" href="/ScootsWebsite/CSS/medium.css">
+    <link rel="stylesheet" href="/ScootsWebsite/CSS/large.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&family=Righteous&display=swap">
+    <title>~Scoots | Home</title>
+</head>
+<body>
+    <header>
+        <img src="/ScootsWebsite/images/LogoSmall.jpg" alt="Scoots Logo" class="logo-small">
+        <img src="/ScootsWebsite/images/LogoLarge.png" alt="Scoots Logo" class="logo-large">
+        <nav>
+            <ul class="navigation">
+                <li><a class="hamburger" href="#">&#9776;</a></li>
+                <li><a href="/ScootsWebsite/index.html" class="active">Home</a></li>
+                <li><a href="/ScootsWebsite/rentals.html" >Rentals</a></li>
+                <li><a href="/ScootsWebsite/reservations.html">Reservations</a></li>
+                <li><a href="/ScootsWebsite/tours.html">Tours</a></li>
+                <li><a href="/ScootsWebsite/contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+       <div class="home-banner">
+        <picture class="clearfix">
+            <img src="/ScootsWebsite/images/redScooterSmaller.jpg" sizes="50vw"
+             srcset="/ScootsWebsite/images/redScooterSmaller.jpg 200w,
+             /ScootsWebsite/images/redScooterSmall.jpg 500w,
+             /ScootsWebsite/images/redScooter.jpg 1000w"
+              alt="red scooter against wall" class="banner-image">
+        </picture>   
+           <h2>The Best Way to See Cozumel</h2>
+           <a href="/ScootsWebsite/rentals.html"><button>See our Rentals Here</button></a>
+       </div> 
+       <div class="rental-spotlight">
+           <h2>Rental Spotlight</h2>
+            <div class="rental-spotlight-section">
+                <img src="/ScootsWebsite/images/dio.jpg" alt="scooter-pic">
+                <div class="spotlight-text">
+                <h3>Honda Dio</h3>
+                <p>The Honda Dio is the perfect scooter on which to roll around the island. Seating 2 people and going up to ?? mph, this little scooter will take you anywhere where there’s a road, whether it’s the beach, the mountain, or anywhere in between. Now renting for $40 a day!</p>
+                <a href="/ScootsWebsite/reservations.html"><button>Make a Reservation</button></a>
+                </div>
+            </div>
+            <div class="rental-spotlight-section">
+                <img src="/ScootsWebsite/images/pioneer.jpg" alt="atv-pic">
+                <div class="spotlight-text">
+                <h3>Honda Pioneer ATV</h3>
+                <p>Renting the Honda Pioneer is a great way to explore every inch of Cozumel. Perfect for larger groups, the Pioneer seats up to 4 people. Explore the beaches, or try a bit of offroading. Now renting for $70 a day!</p>
+                <a href="/ScootsWebsite/reservations.html"><button>Make a Reservation</button></a>
+                </div>
+            </div>
+            <div class="rental-spotlight-section">
+                <img src="/ScootsWebsite/images/4doorWrangler.jpg" alt="jeep-pic">
+                <div class="spotlight-text">
+                <h3>Jeep Wrangler</h3>
+                <p>Explore Cozumel in style by renting a Jeep Wrangler. Ride top down or top on. We especially recommend the Jeep if you are planning on staying on the island for several days. Rent for $100 a day.</p>
+                <a href="/ScootsWebsite/reservations.html"><button>Make a Reservation</button></a>
+                </div>
+            </div>
+       </div>
+       <h2>See the Sites</h2>
+       <div class="tour-sites">
+           
+            <div class="tour-section">
+                <img src="/ScootsWebsite/images/mayanRuins.jpg" alt="Ruins">
+                <a href="/ScootsWebsite/tours.html"><button>Mayan Ruins Tour</button></a>
+            </div>
+            <div class="tour-section">
+                <img src="/ScootsWebsite/images/Snorkel.jpg" alt="Reef">
+                <a href="/ScootsWebsite/tours.html"><button>Snorkel Tour</button></a>
+            </div>
+            <div class="tour-section">
+                <img src="/ScootsWebsite/images/tacos.jpg" alt="Tacos">
+                <a href="/ScootsWebsite/tours.html"><button>Food and Drink Tour</button></a>
+            </div>
+            <div class="tour-section">
+                <img src="/ScootsWebsite/images/natureWalk.jpg" alt="Pretty Nature">
+                <a href="/ScootsWebsite/tours.html"><button>Nature Tour</button></a>
+            </div>
+       </div>
+    </main>
+    <footer>
+       <div class="social-media">
+        <img src="/lesson11/images/facebook (1).png" alt="Facebook Icon">
+        <img src="/lesson11/images/instagram-sketched.png" alt="Instagram Icon">
+        <img src="/lesson11/images/twitter.png" alt="Twitter Icon">
+        <img src="/lesson11/images/youtube.png" alt="Youtube Icon">
+        <img src="/ScootsWebsite/images/mail-icon.png" alt="email icon">
+       </div>
+        <div class="weather-info">
+            <!--Current Day: temp, humidity, current condition. 5 day forcast-->
+            <div class="current-condition">
+                <h3>Weather in Cozumel</h3>
+                <ul>
+                    <ol>Current Conditions: <span id="conditions"></span> </ol>
+                    <ol>Current Temperature: <span id="tempHigh"></span> F</ol>
+                    <ol>Humidity: <span id="humidity"></span>% </ol>
+                </ul>
+            </div>
+            <div class="five-day">
+            </div>
+        </div>
+        <div class="contact-info">
+            <div>
+                <strong>Centro de Cozumel Location</strong><br>
+                Av. Lic. Pedro Joaquin Coaldwell 1234 <br>
+                Centro de Cozumel, Mex
+            </div>
+            <div>
+               <strong>Puerto Maya Location</strong> <br> 
+               Av Claudio Canto 1230 <br>
+               Puerto Maya, Mex
+            </div>
+            <div>
+                Phone: +52 55 1234 5678 <br>
+                Email: xxxxx@scoots.mex
+            </div>
+        </div>
+        <div class="copyright-bar">
+            <!--Resource page, last mod date, other copyright stuff-->
+            &copy;~Scoots| WDD 230 | Raquel Eyler <br>
+            <a href="/ScootsWebsite/resourcePage.html">Resource Page</a> <br>
+            Weather Data Provided by <a href="https://www.accuweather.com/">AccuWeather</a>
+
+        </div>
+    </footer>
+    <script src="/ScootsWebsite/JavaScript/menu.js"></script>
+    <script src="/ScootsWebsite/JavaScript/weather.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+
+</body>
+</html>

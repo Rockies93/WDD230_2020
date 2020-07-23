@@ -1,0 +1,40 @@
+@media only screen and (min-width: 32.5em) {
+    /*Nav and Header*/
+    .navigation li:first-child {
+        display: none;
+    }
+    .navigation li {
+        display: flex;
+        flex: 1 1 100%;
+    }
+    nav ul{
+        display: flex;
+        flex-direction: row;
+    }
+    .home-banner button {
+        bottom: 100px;
+        right: 1.75em;
+    }
+
+    /*Home Page*/
+    .home-banner{
+        margin-bottom: 75px;
+    }
+
+    /*Rentals Page*/
+    .scooters, .atv, .jeeps {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    h3 {
+        font-size: 2em;
+    }
+    /*Tours Page*/
+    .tour h3 {
+        font-size: 2em;
+    }
+    /*contact page */
+    iframe {
+        margin: 30px;
+    }
+}

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head class="clearfix">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Reservation page for scoots scooter rental company">
+    <link rel="stylesheet" href="/ScootsWebsite/CSS/small.css">
+    <link rel="stylesheet" href="/ScootsWebsite/CSS/medium.css">
+    <link rel="stylesheet" href="/ScootsWebsite/CSS/large.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&family=Righteous&display=swap">
+    <title>~Scoots | Reservations</title>
+</head>
+<body>
+    <header>
+        <img src="/ScootsWebsite/images/LogoSmall.jpg" alt="Scoots Logo" class="logo-small">
+        <img src="/ScootsWebsite/images/LogoLarge.png" alt="Scoots Logo" class="logo-large">
+        <nav>
+            <ul class="navigation">
+                <li><a class="hamburger" href="#">&#9776;</a></li>
+                <li><a href="/ScootsWebsite/index.html" >Home</a></li>
+                <li><a href="/ScootsWebsite/rentals.html" >Rentals</a></li>
+                <li><a href="/ScootsWebsite/reservations.html" class="active">Reservations</a></li>
+                <li><a href="/ScootsWebsite/tours.html">Tours</a></li>
+                <li><a href="/ScootsWebsite/contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+       <h2>Make a Reservation</h2>
+       <h3>Rental Agreement</h3>
+       <ul>
+        <li>A $50 security deposit is required to confirm reservations.</li>
+        <li>A valid drivers license is required in hand at time of rental.</li>
+        <li>No one under 12 years of age are allowed to ride on the scooters.</li>
+        <li>Fuel charge not included.</li>
+        <li>Unlimited mileage.</li>
+        <li>Liability insurance is free of charge.</li>
+        <li>Reservations rate requires 24 hour prior notification.</li>
+        <li>Free delivery to Cozumel hotel, Airbnb, or private residence for 2+ day rentals.</li>
+        <li>Payment via Google Pay, cash, credit card, debit card, or PayPal.</li>
+        <li>Rentals may be returned to either location.</li>
+       </ul>
+       <h3>Vehicle Reservations</h3>
+        <fieldset >
+            <legend>Personal Information</legend>
+            <form method="GET" action="/ScootsWebsite/confirmation.html">
+            <label>Full Name*<input type="text" name="name" required></label>
+            <label>Email*<input type="email" name="email" required></label>
+            <label>Telephone Number*<input type="tel" name="phone" required></label>
+            <label>Country of Origin* <input type="text" name="country" required></label>
+            <label>State <input type="text" name="state"></label>
+            <label>Cruiseline <input type="text" name="cruise"></label>
+
+        </fieldset>
+        <fieldset>
+            <legend>Scooters</legend>
+            <label>Honda Metro <select name="scooter" id="metro">
+                <option value="Select Quantity">Select Quantity</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select></label>
+            <label>Honda Dio <select name="scooter" id="dio">
+                <option value="Select Quantity">Select Quantity</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select></label>
+            <label>Honda PCX150 <select name="scooter" id="pcx">
+                <option value="Select Quantity">Select Quantity</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select></label>
+        </fieldset>
+        <fieldset>
+            <legend>ATV's </legend>
+            <label>Honda Pioneer <select name="atv" id="pioneer">
+                <option value="Select Quantity">Select Quantity</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select></label>
+        </fieldset>
+        <fieldset>
+            <legend>Jeeps</legend>
+            <label>Jeep Wrangler- 4 door <select name="jeep" id="4-door">
+                <option value="Select Quantity">Select Quantity</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select></label>
+            <label>Jeep Wrangler- 2 door <select name="jeep" id="2-door">
+                <option value="Select Quantity">Select Quantity</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select></label>
+        </fieldset>
+        <fieldset>
+            <legend>Rental Infomation</legend>
+            <label>Reservation Date <input type="date"></label>
+            <label>Half-Day Rental <input type="radio"></label>
+            <label>Full Day Rental <input type="radio"></label>
+            <label>Multi-Day Rental <input type="radio"></label>
+            <label>Special Accomidations or Drop off location <textarea name="message" id="" cols="30" rows="10"></textarea></label>
+            <input type="submit" value="Make Reservation" class="subbut">
+        </fieldset>
+       </form>
+
+    </main>
+    <footer>
+        <div class="social-media">
+         <img src="/lesson11/images/facebook (1).png" alt="Facebook Icon">
+         <img src="/lesson11/images/instagram-sketched.png" alt="Instagram Icon">
+         <img src="/lesson11/images/twitter.png" alt="Twitter Icon">
+         <img src="/lesson11/images/youtube.png" alt="Youtube Icon">
+         <img src="/ScootsWebsite/images/mail-icon.png" alt="email icon">
+        </div>
+         <div class="weather-info">
+             <!--Current Day: temp, humidity, current condition. 5 day forcast-->
+             <div class="current-condition">
+                 <h3>Weather in Cozumel</h3>
+                 <ul>
+                     <ol>Current Conditions: <span id="conditions"></span> </ol>
+                     <ol>Current Temperature: <span id="tempHigh"></span> F</ol>
+                     <ol>Humidity: <span id="humidity"></span>% </ol>
+                 </ul>
+             </div>
+             <div class="five-day">
+             </div>
+         </div>
+         <div class="contact-info">
+             <div>
+                 <strong>Centro de Cozumel Location</strong><br>
+                 Av. Lic. Pedro Joaquin Coaldwell 1234 <br>
+                 Centro de Cozumel, Mex
+             </div>
+             <div>
+                <strong>Puerto Maya Location</strong> <br> 
+                Av Claudio Canto 1230 <br>
+                Puerto Maya, Mex
+             </div>
+             <div>
+                 Phone: +52 55 1234 5678 <br>
+                 Email: xxxxx@scoots.mex
+             </div>
+         </div>
+         <div class="copyright-bar">
+             <!--Resource page, last mod date, other copyright stuff-->
+             &copy;~Scoots| WDD 230 | Raquel Eyler <br>
+             <a href="/ScootsWebsite/resourcePage.html">Resource Page</a> <br>
+             Weather Data Provided by <a href="https://www.accuweather.com/">AccuWeather</a>
+ 
+         </div>
+     </footer>
+     <script src="/ScootsWebsite/JavaScript/menu.js"></script>
+     <script src="/ScootsWebsite/JavaScript/weather.js"></script>
+     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+ 
+ </body>
+ </html>
